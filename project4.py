@@ -14,7 +14,7 @@ for i in range(4):
     a.append(random.choice(letters))
 counter = 1
 while smn_place != 0:
-    print('Попытка № {}: '.format(counter), end = '')
+    print('Попытка № {}: '.format(counter), end='')
     word = input()
     its_place = 0
     smn_place = 0
