@@ -33,6 +33,8 @@ while smn_place != 0:
         if answer.upper() == 'ДА':
             smn_place = None
             counter = 1
+            print('Загадано четырехбуквенное слово из букв А, E, Н, О, С, Т.')
+            print('Отгадай!')
         else:
             print('Тогда хорошего дня, приходи играть еще!')
             break
