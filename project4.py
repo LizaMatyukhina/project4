@@ -32,9 +32,12 @@ while smn_place != 0:
         answer = input()
         if answer.upper() == 'ДА':
             smn_place = None
-            counter = 1
             print('Загадано четырехбуквенное слово из букв А, E, Н, О, С, Т.')
             print('Отгадай!')
+            a = []
+            for i in range(4):
+                a.append(random.choice(letters))
+            counter = 1
         else:
             print('Тогда хорошего дня, приходи играть еще!')
             break
